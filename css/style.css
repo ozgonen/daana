@@ -10,12 +10,14 @@ body {
   background: #fef7f7; }
 
 .container {
-  width: 80%;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
   max-width: 1100px;
-  height: 85vh;
+  height: 90vh;
   background-color: #fce8e7;
   border-radius: 8px;
-  padding: 5vh 10%;
+  padding: 5vh 5%;
   box-sizing: border-box; }
   .container .img-holder {
     display: flex; }
@@ -29,12 +31,13 @@ body {
     justify-content: center; }
 
 .cards {
+  margin-top: auto;
   display: flex;
   justify-content: space-between; }
 
 .flip-card {
   background-color: transparent;
-  width: 20%;
+  width: 18%;
   height: 300px;
   perspective: 1000px;
   cursor: pointer; }
